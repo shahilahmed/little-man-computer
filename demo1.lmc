@@ -1,0 +1,1 @@
+lda first   ## load the first number into the accumalatoradd second  ## add the value of second number with accumalatorsta result  ## store the value of the accumalator into resultout         ## print the resulthlt         ## halt the machinefirst  dat 45second dat 78result dat  
