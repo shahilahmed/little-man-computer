@@ -4,7 +4,7 @@
 List of instructions of LMC 
 
 * ADD - 1XX - acc <- acc + mem[xx] 
-* SUB - 2XX - acc <- acc +  mem[xx] 
+* SUB - 2XX - acc <- acc -  mem[xx] 
 * STA - 3XX - mem[xx] <- acc 
 * LDA - 5XX - acc <-  mem[xx] 
 * BRA - 6XX - pc <- xx 
