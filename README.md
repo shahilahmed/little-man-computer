@@ -5,8 +5,8 @@ List of instructions of LMC
 
 * ADD - 1XX - acc <- acc + mem[xx] 
 * SUB - 2XX - acc <- acc -  mem[xx] 
-* STA - 3XX - mem[xx] <- acc 
-* LDA - 5XX - acc <-  mem[xx] 
+* STA - 5XX - mem[xx] <- acc 
+* LDA - 3XX - acc <-  mem[xx] 
 * BRA - 6XX - pc <- xx 
 * BRZ - 7XX - if acc == 0 then pc <- xx 
 * BRP - 8XX - if acc >= 0 then pc <- xx 
