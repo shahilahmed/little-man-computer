@@ -5,8 +5,8 @@ List of instructions of LMC
 
 * ADD - 1XX - acc <- acc + mem[xx] 
 * SUB - 2XX - acc <- acc -  mem[xx] 
-* STA - 5XX - mem[xx] <- acc 
-* LDA - 3XX - acc <-  mem[xx] 
+* STA - 3XX - mem[xx] <- acc 
+* LDA - 5XX - acc <-  mem[xx] 
 * BRA - 6XX - pc <- xx 
 * BRZ - 7XX - if acc == 0 then pc <- xx 
 * BRP - 8XX - if acc >= 0 then pc <- xx 
@@ -26,8 +26,8 @@ Modern computers contain a processor which executes instructions and memory whic
 | End                | HLT      | 000           | Ends the program                                                                             | HLT            |
 | Add                | ADD      | 1xx           | Adds the value at address xx to the accumulator                                              | ADD 50         |
 | Subtract           | SUB      | 2xx           | Subtracts the value at address xx from accumulator                                           | SUB 50         |
-| Store              | STA      | 5xx           | Storecontents of accumulator to address xx                                                   | STA 50         |
-| Load               | LDA      | 3xx           | Loads contents of address xx to the accumulator                                              | LDA 50         |
+| Store              | STA      | 3xx           | Storecontents of accumulator to address xx                                                   | STA 50         |
+| Load               | LDA      | 5xx           | Loads contents of address xx to the accumulator                                              | LDA 50         |
 | Branch Always      | BRA      | 6xx           | Jumps to the instruction at address xx                                                       | BRA 05         |
 | Branch If Zero     | BRZ      | 7xx           | Jumps to the instruction at address xx, given the value  in the accumulator is 0             | BRZ 05         |
 | Branch If Positive | BRP      | 8xx           | Jumps to the instruction at address xx, given the value  in the accumulator is 0, or greater | BRP 05         |
