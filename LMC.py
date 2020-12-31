@@ -10,7 +10,7 @@ class LMC():
 if __name__ == '__main__':
 	def info():
 		__app_name__     = 'Little Man Computer'
-		__app_version__  = 'v0.0.2'
+		__app_version__  = 'v0.0.3'
 		__app_author__   = 'Md Shahil Ahmed'
 		print('{} {} by {}'.format(__app_name__,__app_version__,__app_author__))
 		print()	
