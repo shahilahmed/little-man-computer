@@ -1,7 +1,7 @@
 ADD =   1
 SUB =   2
-LDA =   3
-STA =   5
+STA =   3
+LDA =   5
 BRA =   6
 BRZ =   7
 BRP =   8
@@ -11,43 +11,43 @@ HLT =   0
 
 opcodes = {
 	'HLT' :  {
-		'opcode' : 0,
+		'opcode' : HLT,
 		'args'   : 0,
 	},
 	'ADD' :  {
-		'opcode' : 1,
+		'opcode' : ADD,
 		'args'   : 1,
 	},
 	'SUB' :  {
-		'opcode' : 2,
-		'args'   : 1,
-	},
-	'LDA' :  {
-		'opcode' : 3,
+		'opcode' : SUB,
 		'args'   : 1,
 	},
 	'STA' :  {
-		'opcode' : 5,
+		'opcode' : STA,
+		'args'   : 1,
+	},
+	'LDA' :  {
+		'opcode' : LDA,
 		'args'   : 1,
 	},
 	'BRA' :  {
-		'opcode' : 6,
+		'opcode' : BRA,
 		'args'   : 1,
 	},
 	'BRZ' :  {
-		'opcode' : 7,
+		'opcode' : BRZ,
 		'args'   : 1,
 	},
 	'BRP' :  {
-		'opcode' : 8,
+		'opcode' : BRP,
 		'args'   : 1,
 	},
 	'INP' :  {
-		'opcode' : 901,
+		'opcode' : INP,
 		'args'   : 0,
 	},
 	'OUT' :  {
-		'opcode' : 902,
+		'opcode' : OUT,
 		'args'   : 0,
 	},
 }
